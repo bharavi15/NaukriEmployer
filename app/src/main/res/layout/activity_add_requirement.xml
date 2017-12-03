@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.bharavi.naukriemployer.AddRequirement">
+
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        >
+
+
+
+        <TextView
+            android:layout_height="32dp"
+            android:layout_width="match_parent"
+            android:text="Enter Job Requirements"
+            android:textSize="30dp"
+            android:fontFamily="cursive"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimaryDark"/>
+
+
+
+
+
+        <EditText
+            android:layout_height="32dp"
+            android:id="@id/AgeLimit"
+            android:layout_width="match_parent"
+            android:hint="AgeLimit"
+            android:textSize="25dp"
+            android:fontFamily="cursive"
+            android:inputType="number"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimary"/>
+
+        <EditText
+            android:layout_height="32dp"
+            android:id="@id/District"
+            android:layout_width="match_parent"
+
+            android:hint="District"
+            android:textSize="25dp"
+            android:fontFamily="cursive"
+            android:layout_weight="1"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:layout_height="32dp"
+            android:id="@id/Salary"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:hint="Salary"
+            android:textSize="30dp"
+            android:fontFamily="cursive"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:layout_height="32dp"
+            android:id="@id/Vacancy"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:hint="Vacancy"
+            android:textSize="25dp"
+            android:fontFamily="cursive"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:layout_height="32dp"
+            android:id="@id/Duration"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:hint="Duration in Weeks"
+            android:textSize="25dp"
+            android:fontFamily="cursive"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:layout_height="32dp"
+            android:id="@id/TypeOfWork"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:hint="TypeOfWork"
+            android:textSize="25dp"
+            android:fontFamily="cursive"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:layout_height="32dp"
+            android:id="@id/FullAddress"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:hint="FullAddress"
+            android:textSize="25dp"
+            android:fontFamily="cursive"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_height="32dp"
+            android:id="@id/SubmitRequirement"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="Apply"
+            android:textSize="25dp"
+            android:fontFamily="cursive"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

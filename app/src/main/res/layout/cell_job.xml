@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TypeofWork:"
+        android:id="@id/TOWTextView"
+        android:fontFamily="cursive"
+        android:layout_alignParentLeft="true"
+        android:textColor="@color/colorPrimaryDark"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="District:"
+        android:id="@id/LocationTextView"
+        android:fontFamily="cursive"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/colorPrimaryDark"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salary:"
+        android:id="@id/SalaryTextView"
+        android:layout_below="@id/TOWTextView"
+        android:layout_alignParentRight="true"
+        android:fontFamily="cursive"
+        android:textColor="@color/colorPrimaryDark"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vacancy:"
+        android:layout_below="@id/TOWTextView"
+        android:id="@id/VacancyTextView"
+        android:fontFamily="cursive"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bharavi.naukriemployer.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME EMPLOYER!"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:hint="Enter Username"
+        android:textSize="25sp"
+        android:id="@id/usernameEditText"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/usernameEditText"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Password"
+        android:textSize="25sp"
+        android:inputType="textPassword"
+        android:id="@id/passwordEditText"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/passwordEditText"
+        android:layout_marginTop="20dp"
+        android:text="Submit"
+        android:onClick="onSubmit"
+        android:id="@id/submitButton"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/submitButton"
+        android:layout_marginTop="20dp"
+        android:text="New User?"
+        android:onClick="onNewUser"
+        android:id="@id/newUserButton"/>
+
+
+</RelativeLayout>

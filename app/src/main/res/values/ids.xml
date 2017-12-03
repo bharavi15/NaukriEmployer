@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="usernameEditText" type="id">usernameEditText</item>
+    <item name="passwordEditText" type="id">passwordEditText</item>
+    <item name="submitButton" type="id">submitButton</item>
+    <item name="newUserButton" type="id">newUserButton</item>
+    <item name="newUserEditText" type="id">newUserEditText</item>
+    <item name="newPasswordEditText" type="id">newPasswordEditText</item>
+    <item name="newUserSubmitButton" type="id">newUserSubmitButton</item>
+    <item name="AgeLimit" type="id">AgeLimit</item>
+    <item name="District" type="id">District</item>
+    <item name="Salary" type="id">Salary</item>
+    <item name="Vacancy" type="id">Vacancy</item>
+    <item name="Duration" type="id">Duration</item>
+    <item name="TypeOfWork" type="id">TypeOfWork</item>
+    <item name="FullAddress" type="id">FullAddress</item>
+    <item name="AppliedCount" type="id">FullAddress</item>
+    <item name="SubmitRequirement" type="id">SubmitRequirement</item>
+    <item name="TOWTextView" type="id">TOWTextView</item>
+    <item name="LocationTextView" type="id">LocationTextView</item>
+    <item name="SalaryTextView" type="id">SalaryTextView</item>
+    <item name="VacancyTextView" type="id">VacancyTextView</item>
+    <item name="DistrictTextView" type="id">DistrictTextView</item>
+</resources>
